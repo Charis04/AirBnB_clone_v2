@@ -5,7 +5,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-
+# A rand comm
 @app.route('/', strict_slashes=False)
 def hello():
     """Method that displays greeting"""

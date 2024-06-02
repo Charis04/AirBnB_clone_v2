@@ -6,6 +6,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
+# A rand comment
 @app.route('/', strict_slashes=False)
 def hello():
     """Method that displays greeting"""
