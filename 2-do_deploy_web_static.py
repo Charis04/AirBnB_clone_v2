@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """
-Fabric script for deploying an archive to web servers
+Fabric script for deploying an archive to web servers Charis_web
 """
 
 from fabric.api import *
 import os
 
 # Server IPs
-env.hosts = ['100.26.216.116', '3.84.161.102']
+env.hosts = ['54.236.49.42', '100.25.204.17']
 env.user = 'ubuntu'  # SSH username
 # Path to SSH private key
-env.key_filename = '~/.ssh/alx_rsa'
+env.key_filename = '~/.ssh/id_rsa'
 
 # Short variable names for paths
 current_path = '/data/web_static/current'
